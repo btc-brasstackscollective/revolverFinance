@@ -13,6 +13,9 @@
 										 ?>">
 <head>
 	<?php wp_head(); ?>
+	
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+	
 <script src="https://use.typekit.net/ntq3fhf.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>

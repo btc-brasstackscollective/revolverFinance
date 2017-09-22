@@ -1,308 +1,279 @@
 @charset 'utf-8';
-
 /*
-
  Theme Name:   Wizors Investments Child
-
  Theme URI:    http://wizors.ancorathemes.com/
-
  Description:  CityHostel - Fully Responsive and Mobile Friendly theme
-
  Author:       AncoraThemes
-
  Author URI:   http://ancorathemes.com/
-
  Template:     wizors-investments
-
  Version:      1.0
-
  Tags:         light, inheritable theme-options
-
  Text Domain:  wizors-investments
-
 */
-
-
-
 
 
 @import url("../wizors-investments/style.css");
 
 
-
-
-
 /* =Theme customization starts here
-
 -------------------------------------------------------------- */
-
 html, body {
-
-	font-family: "proxima-nova", "Century Old Style", Arial;
-
+	font-family: "Century Old Style", Arial;
 	font-weight: 400;
-
 }
-
-
 
 .scheme_default.top_panel.with_bg_image:before {
-
     background-color: none !important;
-
 	background: none;
-
 }
-
-
 
 .sc_layouts_title_title h1.sc_layouts_title_caption {
-
     color: #ffffff;
-
 }
-
-
 
 .top_panel {
-
 	margin-bottom: 5.5rem;
-
 }
-
-
 
 .services-our-products .wpb_wrapper {
-
 	font-size: 1.25rem;
-
 }
-
-
 
 .top_panel.with_bg_image .sc_layouts_row {
-
 	background-color: #ffffff !important;
-
 	position: relative;
-
 }
-
-
 
 .breadcrumbs {
-
 	display: none;
-
 }
-
-
 
 /** About Us : Intro **/
-
 .about-intro h2.sc_item_title.sc_item_title_style_default:not(.sc_item_title_tag) {
-
 	font-size: 2.75rem;
-
 }
-
-
 
 /** About Us : Team Members **/
-
 .sc_team_default .sc_team_item_title {
-
 	font-size: 1.5rem;
-
 	text-transform: uppercase;
-
 }
-
-
 
 .sc_team_item_info .sc_team_item_button a {
-
 	display: none;
-
 }
-
-
 
 .about-content h2.sc_item_title.sc_item_title_style_default:not(.sc_item_title_tag) {
-
 	font-size: 2.75rem;
-
 }
-
-
-
 
 
 /** Service : Loan Process **/
-
 .icon-headline .wpb_wrapper {
-
 	font-size: 1.125rem;
-
 	font-weight: 500;
-
 }
-
-
 
 .interior-subheaders h2.sc_item_title.sc_item_title_style_default:not(.sc_item_title_tag) {
-
 	font-weight: normal;
-
 	font-size: 3rem;
-
 }
-
-
 
 ul.services li {
-
 	margin-bottom: .35rem;
-
 }
-
-
 
 /** TEAM SECTION **/
-
 .team .scheme_dark .sc_item_subtitle {
-
 	font-size: 48px;
-
 }
-
-
 
 .team h6.sc_item_subtitle:after {
-
 	display: none;
-
 }
-
-
 
 .team .scheme_dark h2 {
-
 	color: #ffffff;
-
 	text-align: left;
-
 	text-transform: uppercase;
-
 	font-size: 36px !important;
-
 }
-
-
 
 .team h4.sc_team_item_title a {
-
 	font-size: 24px;
-
 	text-transform: uppercase;
-
 }
-
-
 
 /** States We Serve **/
-
 .states-we-serve h2.sc_item_title.sc_item_title_style_default:not(.sc_item_title_tag) {
-
 	font-size: 2.25rem;
-
 }
-
-
 
 .body_wrap .top_panel.with_bg_image .sc_layouts_row.top_panel_navi {
-
     background: #ffffff !important;
-
 }
-
-
 
 /** Homepage **/
-
 .intro p {
-
 	font-size: 38px;
-
 	line-height: 45px;
-
 }
 
-
-
-.intro .scheme_default .sc_button_dark_button.sc_button_hover_slide_left,
-
-html.scheme_default .sc_item_button a.sc_button_dark_button:not(.sc_button_bg_image) {
-
+.intro ..scheme_default .sc_button_dark_button.sc_button_hover_slide_left {
 	background: #3d7185 !important;
-
-	border-color: transparent;
-
 }
-
-
-
-html.scheme_default .sc_item_button a.sc_button_dark_button:not(.sc_button_bg_image):hover {
-
-	background: #ffffff !important;
-
-	border-color: #3d7185;
-
-	color: #3d7185 !important;
-
-}
-
-
 
 /** Contact Form CSS **/
-
 .wpcf7 input.wpcf7-text { width: 100%; } 
-
 .wpcf7 textarea.wpcf7-textarea { width: 100%; } 
-
 .wpcf7-form textarea { height: 200px; }
-
 .wpcf7-form-control.wpcf7-submit { float: right; }
 
-.applyform.wpcf7 input {
-    width: 100%;
-}
-
-input::-webkit-input-placeholder {
-	color:#6a8898
-}
-
-
-/** FOOTER **/
-.scheme_dark.footer_wrap h5, .footer_wrap .widget_nav_menu ul>li { 
-    text-align: center; 
-}
-
-.footer_wrap .widget_contacts .contacts_logo img {
-    max-width: 109px !important;
-    width: 100%; 
-}
-
 /** NEED TO FIX LATER **/
-
 .scheme_default .trx_addons_profiler { display: none !important;}
-
  
+ 
+ /*******************************
+	Application Form : Shortcode
+*******************************/
+.revolver_application_form
+{
+	color:#000000;	
+}
 
-#trx_addons_widget_contacts-3 {
+.application_form_section_header
+{
+	background-color:#F2F0E8;
+	color:#000000;
+	font-weight:600;
+	margin-bottom:20px;
+	margin-top:60px;
+	padding:10px 0 10px 20px;
+}
 
-	padding-right: 0;
+.application_form_section_sub_header
+{
+	background-color:#F2F0E8;
+	color:#000000;
+	font-weight:600;
+	padding:10px 0 10px 20px;
+}
 
-	width: 14%;
+.revolver_application_form .no_gutter
+{
+	padding-left:0;
+	padding-right:0;
+}
 
+.revolver_application_form label
+{
+	color:#000000;
+	display:block;
+	margin-bottom:0;
+	padding:10px 0 5px;
+}
+
+.revolver_application_form input[type="text"]
+{
+	border:solid 1px #000000 !important;
+	height:auto !important;
+	padding:15px;
+	width:100%;
+}
+
+.revolver_application_form .top_space
+{
+	margin-top:30px;
+}
+
+.revolver_application_form .footer_notes
+{
+	padding-bottom;20px;
+	padding-top:20px;
+}
+
+#application_login_not_user_error,
+#application_register_user_exists_error
+{
+	color:red;
+	margin-bottom:20px;
+}
+
+.form_item
+{
+	margin-bottom:20px;
+}
+
+.form_item input[type="text"],
+.form_item input[type="email"],
+.form_item input[type="password"]
+{
+	width:300px;
+}
+
+.form_item input[type="submit"]
+{
+	display:block;
+}
+
+.form_item_anchor
+{
+	display:inline-block;
+	margin-top:20px;
+}
+
+.header_utility_nav
+{
+	background-color:rgb(61,113,133);
+	padding:10px 0;
+}
+
+.header_utility_nav a
+{
+	color:rgba(255,255,255,1);
+	font-weight:500;
+	padding:0 1.21em;
+}
+
+.header_utility_nav a:hover
+{
+	color:rgba(255,255,255,.7);
+	text-decoration:none;
+}
+
+.user_settings_container .nav_panel_container
+{
+	background-color:#f2f0e8;
+	padding:20px 15px;
+}
+
+.user_settings_container .nav_panel_container a
+{
+	display:inline-block;	
+}
+
+.user_settings_container .nav_panel_container a.nav_panel_logged_out
+{
+	margin-top:20px;
+}
+
+.user_settings_container .content_settings_container,
+.user_settings_container .content_settings_container > div
+{
+	overflow:hidden;
+}
+
+.user_settings_container .header_row_container
+{
+	background-color:#f2f0e8;
+}
+
+#all_loan_application_container > div
+{
+	padding:10px;	
+}
+
+#all_loan_application_container > div.alternate
+{
+	background-color:rgba(242,240,232,.6);
 }

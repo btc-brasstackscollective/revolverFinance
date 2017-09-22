@@ -44,6 +44,28 @@ if ( !function_exists('wizors_investments_theme_fonts_links') ) {
 	}
 }
 
+function html5blank_header_scripts()
+{
+    //wp_register_script('bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', array(), '1.0'); // Bootstrap
+    //wp_enqueue_script('bootstrap'); // Enqueue it!
+    
+    //wp_register_script('signature_pad', get_template_directory_uri() . '/js/signature_pad.js', array(), '1.0');
+    //wp_enqueue_script('signature_pad'); // Enqueue it!
+    
+    //wp_register_script('script', get_template_directory_uri() . '/js/app.js', array(), '1.0');
+    //wp_enqueue_script('script'); // Enqueue it!
+}
 
+function html5blank_styles()
+{ 
+	//wp_register_style('bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', array(), '1.0', 'all');
+    //wp_enqueue_style('bootstrap'); // Enqueue it!
+    
+    //wp_register_style('signature_pad', get_template_directory_uri() . 'css/signature_pad.css', array(), '1.0', 'all');
+    //wp_enqueue_style('signature_pad'); // Enqueue it!
+}
+
+add_action('init', 'html5blank_header_scripts'); // Add Custom Scripts to wp_head
+add_action('init', 'html5blank_styles'); // Add Theme Stylesheet
 
 ?>
