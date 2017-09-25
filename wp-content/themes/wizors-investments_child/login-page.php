@@ -11,6 +11,8 @@
 Template Name: Loan Application Login/Register 
 */
 
+require_once('includes/passwordLib.php');
+
 function isUser()
 {
     global $wpdb;
